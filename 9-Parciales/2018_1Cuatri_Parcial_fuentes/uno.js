@@ -1,5 +1,9 @@
+function mostrar() {
+    var ladoA = prompt("Largo de Lado A ", "Distancia");
+    var ladoB = prompt("Largo de LadoB", "Distancia");
+    var perimetro = ladoA * ladoB;
 
-function mostrar()
-{
+    alert("El perimetro del cuadrado es " +
+        perimetro + " Cm");
 
 }
